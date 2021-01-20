@@ -10,9 +10,24 @@ include("conecta.php");
 				<tr>
 					<td><?= $tag['tag']?></td>
 					<td><?= $tag['dataHora']?></td>
-					<td><a class="btn btn-info" href="produtoalteraformulario.php?tag=<?=$tag['tag']?>">Alugar</a>
-					<td><a class="btn btn-primary" href="produtoalteraformulario.php?tag=<?=$tag['tag']?>">Cadastrar</a>
+					<?php 
+						$livro = buscaLivro($conexao,$tag['tag']);
+						if($livro['alugado']=='1'){
+					?>
+					<td><?= $livro['titulo']?></td>
+					<td><a class="btn btn-info" href="devolve.php?tag=<?=$tag['tag']?>">Devolver</a>
 					<td><a class="btn btn-danger" href="removeLivro.php?tag=<?=$tag['tag']?>">Remover</a>
+					<?php
+						}else if($livro['alugado']=='0'){
+					?>
+					<td><?= $livro['titulo']?></td>
+					<td><a class="btn btn-info" href="aluga.php?tag=<?=$tag['tag']?>">Alugar</a>
+					<td><a class="btn btn-danger" href="removeLivro.php?tag=<?=$tag['tag']?>">Remover</a>
+					<?php
+						}else{
+					?>
+					<td><a class="btn btn-primary" href="formCadastro.php?tag=<?=$tag['tag']?>">Cadastrar</a>
+					<?php } ?>
 				</tr>
 			</table>
 				<?php } ?>
