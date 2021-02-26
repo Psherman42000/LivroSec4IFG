@@ -1,0 +1,43 @@
+body{
+	padding-top: 50px;
+	background-image:url("imagens/imgLivros.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1550px 750px;
+	background-attachment: fixed;
+}
+
+.principal{
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.textoBranco{
+	color: gray;
+}
+
+.textoPreto{
+	color: black;
+}
+
+.blocoCentral{
+	margin-left: 500px;
+	background-color:rgba(233,222,166,0.9);
+	height: 600px;
+	width: 30%;
+	border-radius: 3%;
+}
+
+.opaco{
+	background-color:rgba(233,226,177,0.8);
+}
+
+.index{
+	color: black;
+	padding-top: 30px;
+}
+
+.transicao:hover{
+	color: white;
+	transition: 0.3s;
+}
