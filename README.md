@@ -2,7 +2,8 @@
 
 ##  Descrição
 
-## Como executar
+
+## Documentação
 
 deve-se baixar o XAMPP Control Painel (versão usada 4.2.2) no seu computador e iniciar os módulos Apache e MySQL.
 o pasta do projeto da página WEB deve ser colada dentro da pasta 'htdocs' da pasta do XAMP.
