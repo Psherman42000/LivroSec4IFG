@@ -7,4 +7,4 @@ O LivroSec4IFG é um sistema composto por 3 componentes, um é a página Web par
 Para saber mais a respeido da documentação, por favor veja a [wiki](https://github.com/my5G/my5G-non3GPP-access/wiki).
 
 ## Licença
-Para saber mais a respeido da documentação, por favor veja a [wiki](https://github.com/my5G/my5G-non3GPP-access/wiki).
+Para saber mais a respeido da documentação, por favor veja a [link](https://github.com/Psherman42000/LivroSec4IFG/blob/main/LICENSE).
