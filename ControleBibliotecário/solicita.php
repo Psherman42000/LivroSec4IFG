@@ -9,7 +9,7 @@ include("conecta.php");
 			$query2 = " DELETE FROM tagsLidas where id>0";
 			if(mysqli_query($conexao, $query)&&mysqli_query($conexao, $query2)){
 			?>
-				<p class="alert alert-success msg">Pronto para ler...<br> depois de aproximar o livro do leitor verifique a TAG lida na lista.</p>
+				<p class="alert alert-success msg">Pronto para leitura...<br>Aproxime a TAG do material bibliográfico no leitor...</p>
 			<?php
 			}
 			else{

@@ -1,12 +1,11 @@
 <?php include("cabecalho.php");?>
 	
 	<main class="blocoCentral index">
-		Bem vindo ao site de gerenciamento de livros da biblioteca<br>
-		aqui você pode cadastrar novos livros para a biblioteca e remove-los caso precise,
-		é por aqui que você também irá fazer controle do aluguel dos mesmos para os nossos visitantes.<br>
+		Seja bem-vindo(a) ao sistema de controle de gerenciamento do acervo bibliográfico do IFG-Câmpus Formosa.
+		Aqui você pode cadastrar ou remover livros e realizar empréstimos seguros.<br>
+		Clique em Listar Tags Lidas para começar...
 		<br><br>
-		Agradecemos sua visita.<br><br>
-		Atenciosamente, Pedro Dias.
+		Agradecemos sua visita!<br><br>
 	</main>
 	
 <?php include("rodape.php");?>
