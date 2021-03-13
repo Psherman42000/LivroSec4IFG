@@ -1,4 +1,4 @@
-# Controle-Bibliotec-rio
+# LivroSec4IFG
 
 ##  Descrição
 O LivroSec4IFG é um sistema composto por 3 componentes, um é a página Web para realização de aluguel de livros cadastrados na plataforma. Pela página Web é possível cadastrar e remover livros no banco de dados, além de alugar e devolver os mesmos. Outro componente é um sistema Arduino que é responsável por realizar a leitura das tags RFID que identificam os livros, ele também é responsável por fazer a verificação dos livros que saem da biblioteca, e alertar caso um livro não alugado saia de lá. O último componente é o banco de dados que armazena as informações a respeito dos livros e das tags que são lidas pelo Arduino.
