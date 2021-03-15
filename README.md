@@ -1,7 +1,6 @@
 # LivroSec4IFG
 
 ![GitHub](https://img.shields.io/github/license/Psherman42000/LivroSec4IFG?color=blue) 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Psherman42000/LivroSec4IFG) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Psherman42000/LivroSec4IFG)
 ![GitHub contributors](https://img.shields.io/github/contributors/Psherman42000/LivroSec4IFG)
 
